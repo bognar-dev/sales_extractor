@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/nikla/Documents/Studium/PE2/04/Sales.h
+
+C:/Users/nikla/Documents/Studium/PE2/04/extractor.cpp
+iostream
+-
+fstream
+-
+string
+-
+filesystem
+-
+utility
+-
+extractor.h
+C:/Users/nikla/Documents/Studium/PE2/04/extractor.h
+list.h
+C:/Users/nikla/Documents/Studium/PE2/04/list.h
+Sales.h
+C:/Users/nikla/Documents/Studium/PE2/04/Sales.h
+
+C:/Users/nikla/Documents/Studium/PE2/04/extractor.h
+iostream
+-
+fstream
+-
+string
+-
+filesystem
+-
+list.h
+C:/Users/nikla/Documents/Studium/PE2/04/list.h
+Sales.h
+C:/Users/nikla/Documents/Studium/PE2/04/Sales.h
+
+C:/Users/nikla/Documents/Studium/PE2/04/list.h
+Sales.h
+C:/Users/nikla/Documents/Studium/PE2/04/Sales.h
+
