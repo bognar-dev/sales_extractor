@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/nikla/Documents/Studium/PE2/04/Sales.h
+C:/Users/nikla/Documents/Studium/PE2/Salesextractor/Sales.h
 
-C:/Users/nikla/Documents/Studium/PE2/04/extractor.cpp
+C:/Users/nikla/Documents/Studium/PE2/Salesextractor/extractor.h
 iostream
 -
 fstream
@@ -17,30 +17,24 @@ string
 -
 filesystem
 -
-utility
+list.h
+C:/Users/nikla/Documents/Studium/PE2/Salesextractor/list.h
+Sales.h
+C:/Users/nikla/Documents/Studium/PE2/Salesextractor/Sales.h
+
+C:/Users/nikla/Documents/Studium/PE2/Salesextractor/list.h
+Sales.h
+C:/Users/nikla/Documents/Studium/PE2/Salesextractor/Sales.h
+
+C:/Users/nikla/Documents/Studium/PE2/Salesextractor/main.cpp
+iostream
 -
+iomanip
+-
+list.h
+C:/Users/nikla/Documents/Studium/PE2/Salesextractor/list.h
+Sales.h
+C:/Users/nikla/Documents/Studium/PE2/Salesextractor/Sales.h
 extractor.h
-C:/Users/nikla/Documents/Studium/PE2/04/extractor.h
-list.h
-C:/Users/nikla/Documents/Studium/PE2/04/list.h
-Sales.h
-C:/Users/nikla/Documents/Studium/PE2/04/Sales.h
-
-C:/Users/nikla/Documents/Studium/PE2/04/extractor.h
-iostream
--
-fstream
--
-string
--
-filesystem
--
-list.h
-C:/Users/nikla/Documents/Studium/PE2/04/list.h
-Sales.h
-C:/Users/nikla/Documents/Studium/PE2/04/Sales.h
-
-C:/Users/nikla/Documents/Studium/PE2/04/list.h
-Sales.h
-C:/Users/nikla/Documents/Studium/PE2/04/Sales.h
+C:/Users/nikla/Documents/Studium/PE2/Salesextractor/extractor.h
 

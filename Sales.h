@@ -12,7 +12,8 @@ public:
     string _amount_of_cars;
     Sales();
     Sales(string date,string brand, string amount_of_cars);
-    void toString();
+    void toScreen();
+    string toString();
 };
 
 

@@ -19,8 +19,7 @@ private :
     void decrease();
 
 public :
-    List();
-    List(int size);
+    List(int size = 8);
     ~ List(); // Destruktor statt destroy
     void append(Sales val);
 

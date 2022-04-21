@@ -3,7 +3,6 @@
 #include "Sales.h"
 
 using namespace std; // nutze Namensraum
-List::List() = default;
 List::List(int size) {
     _size = size;
     _next = 0;

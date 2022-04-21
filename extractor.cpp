@@ -22,28 +22,30 @@ cout<<"success"<<endl;
 }
 }
 List FileExtractor::extract() {
-    string line;
-    string date;
-    string brand;
-    string amount;
-    int i = 0;
-    int j;
+    string word;
+    string info[3];
+    int first_run = 0;
+    int i=0;
     while (!file.eof()) {
-        getline(file, line);
-        for (; i != ' '; i++) {
-            date += line[i];
+        if(i > 2){
+            if(first_run != 0) {
+                info[0].erase(0, 1);
+            }
+            if(info[0] == _datum) {
+                Sales s(info[0], info[1], info[2]);
+                _liste.append(s);
+            }
+            i = 0;
+            first_run = 1;
         }
-        for (j = i+1; j != ' '; j++) {
-            brand += line[i];
-        }
-        for (int k = j +1; k !='\n' ; k++) {
-            amount += line[i];
-        }
-        if(date == _datum){
+        getline(file, word,',');
+        info[i] = word;
+        i++;
+        /*if(date == _datum){
             Sales s(date,brand,amount);
             s.toString();
             _liste.append(s);
-        }
+        }*/
     }
     return _liste;
 }
