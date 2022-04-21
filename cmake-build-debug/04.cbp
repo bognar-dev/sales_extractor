@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/nikla/Documents/Studium/PE2/Salesextractor/Date.cpp">
+			<Option target="04"/>
+		</Unit>
+		<Unit filename="C:/Users/nikla/Documents/Studium/PE2/Salesextractor/Date.h">
+			<Option target="04"/>
+		</Unit>
 		<Unit filename="C:/Users/nikla/Documents/Studium/PE2/Salesextractor/Sales.cpp">
 			<Option target="04"/>
 		</Unit>

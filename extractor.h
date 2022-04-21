@@ -10,6 +10,7 @@
 #include <filesystem>
 #include "list.h"
 #include "Sales.h"
+#include "Date.h"
 using namespace std;
 
 class FileExtractor{
@@ -19,6 +20,7 @@ private:
     string _filename;
     string _datum;
 public:
+    FileExtractor();
     FileExtractor(string filename,string datum);
     List extract();
     ~FileExtractor();

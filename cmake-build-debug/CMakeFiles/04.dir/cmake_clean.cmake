@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "04.exe"
   "04.exe.manifest"
   "04.pdb"
+  "CMakeFiles/04.dir/Date.cpp.obj"
   "CMakeFiles/04.dir/Sales.cpp.obj"
   "CMakeFiles/04.dir/extractor.cpp.obj"
   "CMakeFiles/04.dir/list.cpp.obj"

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/nikla/Documents/Studium/PE2/Salesextractor/Date.cpp" "C:/Users/nikla/Documents/Studium/PE2/Salesextractor/cmake-build-debug/CMakeFiles/04.dir/Date.cpp.obj"
   "C:/Users/nikla/Documents/Studium/PE2/Salesextractor/Sales.cpp" "C:/Users/nikla/Documents/Studium/PE2/Salesextractor/cmake-build-debug/CMakeFiles/04.dir/Sales.cpp.obj"
   "C:/Users/nikla/Documents/Studium/PE2/Salesextractor/extractor.cpp" "C:/Users/nikla/Documents/Studium/PE2/Salesextractor/cmake-build-debug/CMakeFiles/04.dir/extractor.cpp.obj"
   "C:/Users/nikla/Documents/Studium/PE2/Salesextractor/list.cpp" "C:/Users/nikla/Documents/Studium/PE2/Salesextractor/cmake-build-debug/CMakeFiles/04.dir/list.cpp.obj"

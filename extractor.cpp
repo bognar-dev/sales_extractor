@@ -9,6 +9,7 @@
 #include "extractor.h"
 #include "list.h"
 #include "Sales.h"
+#include "Date.h"
 using namespace std;
 FileExtractor::FileExtractor(string filename,string datum){
 _filename = filename;
