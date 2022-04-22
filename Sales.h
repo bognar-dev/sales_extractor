@@ -4,14 +4,15 @@
 
 #ifndef INC_04_SALES_H
 #define INC_04_SALES_H
+#include "Date.h"
 using namespace std;
 
 class Sales {
 public:
-    string _date,_brand;
-    string _amount_of_cars;
-    Sales();
-    Sales(string date,string brand, string amount_of_cars);
+    Date _date= Date("00.00.0000");
+    string _brand;
+    int _amount_of_cars;
+    Sales(Date date, string brand, int amount_of_cars);
     void toScreen();
     string toString();
 };

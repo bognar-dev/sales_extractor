@@ -7,7 +7,7 @@ List::List(int size) {
     _size = size;
     _next = 0;
     _error = 0;
-    _values = new Sales[size];
+    _values = new Sales [size];
 }
 
 List::~ List() {
@@ -40,7 +40,7 @@ Sales List::getValueAt(int pos) {
 int List::find(Sales val) {
     int pos;
     for (pos = 0; pos < _next; pos++)
-        if (_values[pos]._date == val._date)
+        if (_values[pos]._date.toDigits() == val._date.toDigits())
             return pos;
     return -1;
 }

@@ -5,6 +5,7 @@ CMakeFiles/04.dir/Date.cpp.obj: \
  ../Date.cpp \
  ../Date.h
 CMakeFiles/04.dir/Sales.cpp.obj: \
+ ../Date.h \
  ../Sales.cpp \
  ../Sales.h
 CMakeFiles/04.dir/extractor.cpp.obj: \
@@ -14,6 +15,7 @@ CMakeFiles/04.dir/extractor.cpp.obj: \
  ../extractor.h \
  ../list.h
 CMakeFiles/04.dir/list.cpp.obj: \
+ ../Date.h \
  ../Sales.h \
  ../list.cpp \
  ../list.h

@@ -27,7 +27,8 @@ List FileExtractor::extract() {
                 info[0].erase(0, 1);
             }
             if(info[0] == _datum.toDigits()) {
-                Sales s(info[0], info[1], info[2]);
+                int amount_of_cars = stoi(info[2]);
+                Sales s(info[0], info[1], amount_of_cars);
                 _liste.append(s);
             }
             i = 0;

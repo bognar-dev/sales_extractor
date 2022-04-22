@@ -5,15 +5,13 @@
 #include <iomanip>
 #include "Sales.h"
 
-Sales::Sales() = default;
-Sales::Sales(string date, string brand, string amount_of_cars) {
+Sales::Sales(Date date, string brand, int amount_of_cars) {
     _date = date;
     _brand = brand;
     _amount_of_cars = amount_of_cars;
 }
-
 void Sales::toScreen() {
-    cout <<setw(12) <<_date<<setw(12) << _brand<<setw(16)  << _amount_of_cars << endl;
+    cout <<setw(12) <<_date.toString()<<setw(12) << _brand<<setw(16)  << _amount_of_cars << endl;
 }
 
 string Sales::toString () {
