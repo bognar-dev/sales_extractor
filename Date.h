@@ -12,6 +12,7 @@ public:
     int _day,_month,_year;
     Date(string dat);
     string toString();
+    string toDigits();
 };
 
 

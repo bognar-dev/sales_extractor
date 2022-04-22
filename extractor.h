@@ -18,10 +18,9 @@ private:
     List _liste;
     ifstream file;
     string _filename;
-    string _datum;
+    Date _datum = Date("00.00.0000");
 public:
-    FileExtractor();
-    FileExtractor(string filename,string datum);
+    FileExtractor(string filename,Date datum);
     List extract();
     ~FileExtractor();
 };

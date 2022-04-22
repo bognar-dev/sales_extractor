@@ -7,7 +7,7 @@
 int main() {
     string file = "sales.dat";
     string indate;
-    cout<<"Please give a date you want to search for. DD.MM.YYYY"<<endl;
+    cout<<"Please give a date you want to search for (DD.MM.YYYY):"<<endl;
     cin>>indate;
     Date date(indate);
     FileExtractor f(file,date);
@@ -18,3 +18,5 @@ int main() {
     }
 return 0;
 }
+
+//TODO: make output and list to Date type

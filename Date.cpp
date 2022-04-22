@@ -23,3 +23,10 @@ string Date::toString () {
     os << setw (2) << _month << "." << setw (4) << _year ;
     return os.str();
 }
+
+string Date::toDigits() {
+    ostringstream os;
+    os << setfill ('0') << setw (4) << _year;
+    os << setw (2) << _month << setw (2) << _day ;
+    return os.str();
+}

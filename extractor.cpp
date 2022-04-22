@@ -2,16 +2,10 @@
 // Created by nikla on 19/04/2022.
 //
 #include <iostream>
-#include <fstream>
 #include <string>
-#include <filesystem>
-#include <utility>
 #include "extractor.h"
-#include "list.h"
-#include "Sales.h"
-#include "Date.h"
 using namespace std;
-FileExtractor::FileExtractor(string filename,string datum){
+FileExtractor::FileExtractor(string filename,Date datum){
 _filename = filename;
 _datum = datum;
 file.open(_filename);
@@ -32,7 +26,7 @@ List FileExtractor::extract() {
             if(first_run != 0) {
                 info[0].erase(0, 1);
             }
-            if(info[0] == _datum) {
+            if(info[0] == _datum.toDigits()) {
                 Sales s(info[0], info[1], info[2]);
                 _liste.append(s);
             }

@@ -8,6 +8,7 @@ CMakeFiles/04.dir/Sales.cpp.obj: \
  ../Sales.cpp \
  ../Sales.h
 CMakeFiles/04.dir/extractor.cpp.obj: \
+ ../Date.h \
  ../Sales.h \
  ../extractor.cpp \
  ../extractor.h \
