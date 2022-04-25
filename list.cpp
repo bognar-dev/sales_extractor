@@ -15,12 +15,14 @@ List::~ List() {
 }
 
 void List::increase() {
-    Sales *tmp = new Sales[_size * 2];
-    for (int i = 0; i < _size; i++)
-        tmp[i] = _values[i];
-    delete[] _values;
-    _values = tmp;
-    _size *= 2;
+    if(_error!= 1) {
+        Sales *tmp = new Sales[_size * 2];
+        for (int i = 0; i < _size; i++)
+            tmp[i] = _values[i];
+        delete[] _values;
+        _values = tmp;
+        _size *= 2;
+    }
 }
 
 void List::append(Sales val) {
