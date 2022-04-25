@@ -12,8 +12,6 @@ file.open(_filename);
 if(!file) {
 cerr << "could not open the file" << endl;
 return;
-}else{
-cout<<"success"<<endl;
 }
 }
 List FileExtractor::extract() {

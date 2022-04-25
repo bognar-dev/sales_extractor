@@ -14,6 +14,14 @@ C:/Users/nikla/Documents/Studium/PE2/Salesextractor/Sales.h
 Date.h
 C:/Users/nikla/Documents/Studium/PE2/Salesextractor/Date.h
 
+C:/Users/nikla/Documents/Studium/PE2/Salesextractor/extractor.cpp
+iostream
+-
+string
+-
+extractor.h
+C:/Users/nikla/Documents/Studium/PE2/Salesextractor/extractor.h
+
 C:/Users/nikla/Documents/Studium/PE2/Salesextractor/extractor.h
 iostream
 -
@@ -33,18 +41,4 @@ C:/Users/nikla/Documents/Studium/PE2/Salesextractor/Date.h
 C:/Users/nikla/Documents/Studium/PE2/Salesextractor/list.h
 Sales.h
 C:/Users/nikla/Documents/Studium/PE2/Salesextractor/Sales.h
-
-C:/Users/nikla/Documents/Studium/PE2/Salesextractor/main.cpp
-iostream
--
-iomanip
--
-list.h
-C:/Users/nikla/Documents/Studium/PE2/Salesextractor/list.h
-Sales.h
-C:/Users/nikla/Documents/Studium/PE2/Salesextractor/Sales.h
-extractor.h
-C:/Users/nikla/Documents/Studium/PE2/Salesextractor/extractor.h
-Date.h
-C:/Users/nikla/Documents/Studium/PE2/Salesextractor/Date.h
 
