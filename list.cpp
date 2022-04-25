@@ -69,7 +69,9 @@ void List::erase(Sales val) {
         decrease();
 }
 
-
+int List::getSize(){
+    return _size;
+}
 char List::getError() {
     return _error;
 }

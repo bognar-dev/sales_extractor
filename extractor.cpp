@@ -28,7 +28,8 @@ List FileExtractor::extract() {
             }
             if(info[0] == _datum.toDigits()) {
                 int amount_of_cars = stoi(info[2]);
-                Sales s(info[0], info[1], amount_of_cars);
+                Date date(info[0],"yyyymmdd");
+                Sales s(date, info[1], amount_of_cars);
                 _liste.append(s);
             }
             i = 0;

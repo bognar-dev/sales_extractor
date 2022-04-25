@@ -6,15 +6,21 @@
 #include <sstream>
 #include <iomanip>
 
-Date::Date(string dat) {
-    istringstream _is(dat);
-    char _t;
-    _is >> _day ;
-    _is >> _t;
-    _is >> _month ;
-    _is >> _t;
-    _is >> _year ;
-
+Date::Date(string dat,string mode) {
+    if(mode == "dd.mm.yyyy") {
+        istringstream _is(dat);
+        char _t;
+        _is >> _day;
+        _is >> _t;
+        _is >> _month;
+        _is >> _t;
+        _is >> _year;
+    }
+    if(mode == "yyyymmdd"){
+        _year = stoi(dat.substr(0,4));
+        _month = stoi(dat.substr(5,1));
+        _day = stoi(dat.substr(7,1));
+    }
 }
 
 string Date::toString () {

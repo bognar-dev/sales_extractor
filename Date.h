@@ -10,7 +10,7 @@ using namespace std;
 class Date {
 public:
     int _day,_month,_year;
-    Date(string dat);
+    Date(string dat,string mode = "dd.mm.yyyy");
     string toString();
     string toDigits();
 };

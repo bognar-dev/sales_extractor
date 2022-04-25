@@ -19,7 +19,7 @@ private :
     void decrease();
 
 public :
-    List(int size = 8);
+    List(int size = 1);
     ~ List(); // Destruktor statt destroy
     void append(Sales val);
 
@@ -28,6 +28,8 @@ public :
     void erase(Sales val);
 
     char getError();
+
+    int getSize();
 };
 
 #endif

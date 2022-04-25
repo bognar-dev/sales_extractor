@@ -9,10 +9,10 @@ using namespace std;
 
 class Sales {
 public:
-    Date _date= Date("00.00.0000");
+    Date _date = Date("11.11.1111");
     string _brand;
     int _amount_of_cars;
-    Sales(Date date, string brand, int amount_of_cars);
+    Sales(Date date = Date("11.11.1111"), string brand = "----------", int amount_of_cars = 1);
     void toScreen();
     string toString();
 };

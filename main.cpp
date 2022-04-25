@@ -13,7 +13,7 @@ int main() {
     FileExtractor f(file,date);
     List l = f.extract();
     cout <<setw(12) << "date" <<setw(12)<< "brand" <<setw(16)<< "amount of cars" << endl;
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < l.getSize(); i++) {
         l.getValueAt(i).toScreen();
     }
 return 0;

@@ -4,7 +4,6 @@
 #include <iostream>
 #include <iomanip>
 #include "Sales.h"
-
 Sales::Sales(Date date, string brand, int amount_of_cars) {
     _date = date;
     _brand = brand;
